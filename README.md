@@ -1,7 +1,7 @@
 ## Chunkifier
 
 In this system I wrote a service for chunk the file in specific directory. I used chunk class and implement it with three function in it and also check the type of incoming file  (Normal,Sparse).
-You can change two parameters in “config.php” that you mentioned in document :
+You can change two parameters in “config.php”:
 
 1) file_size 			=> first file size = 1337 bytes
 2) incrementalـnumber 	=> Each chunk should be 11 bytes larger than the previous chunk = 11 bytes
